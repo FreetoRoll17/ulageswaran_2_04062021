@@ -1,0 +1,245 @@
+body
+{
+    background-color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+    
+}
+ul
+ {
+     list-style-type: none;
+ }
+
+ a
+ {
+     text-decoration:none; 
+ }
+#menu
+{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+nav ul
+{
+   
+    display: flex; 
+    justify-content: space-between;
+    width: 350px; 
+
+}
+#slogan 
+{   color: black;
+    font-size: 18px;
+   
+}
+
+#sousslogan
+{
+    font-size: 15px;
+}
+
+#barre
+{
+    display: flex;
+    width: 300px;
+    justify-content:left;
+    border-width: 0.5px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 22px; 22px;
+
+
+}
+#map
+{
+    color: bleu;
+}
+#rechercher
+{
+    
+}
+#map
+{
+    width: 15px;
+    height: 25px;
+}
+#filtre
+{
+    display: flex;
+    color: blue;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1000px;
+    
+}
+.filtre
+{
+    width: 60px;
+    height: 15px;
+    justify-content: space-between;
+    justify-content:space-evenly;
+    
+}
+
+#economique
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#familial
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#romantique
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#animaux
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+h1
+{
+    text-decoration: underline;
+}
+
+#hebergements_marseille
+{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+#marseille
+{
+  
+    width: fit-content;
+    height: 600px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 15px / 30px;
+    margin: 30px;
+    align-content: center;
+    
+}
+
+#conteneur
+{
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content:center;
+   
+}
+
+#conteneur img {
+	max-width: 100%;
+	height: auto;
+}
+
+#mer
+{
+   
+        width: 150px; 
+        height: 100px; 
+        object-fit: cover; 
+    
+}
+.element
+{
+    margin: 100px;
+    padding: 10px;
+    justify-content: space-between;
+    columns: auto;
+    width: 300px;
+    height: 150px;
+}
+.element:nth-child(1)
+ {
+    background-color: white;
+}
+.element:nth-child(2)
+ {
+    background-color: white;
+}
+.element:nth-child(3)
+ {
+    background-color: white;
+}
+.element:nth-child(4)
+ {
+     background-color: white;
+ }
+ .element:nth-child(5)
+ {
+     background-color: white;
+ }
+ .element:nth-child(6)
+ {
+     background-color: white;
+ }
+ #populaire
+ {
+     background-color: rgb(228, 228, 228);
+     border-radius: 15px / 30px;
+     
+ }
+.conteneur_2 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 600px;
+}
+
+ #populaire img
+ {
+    object-fit: cover;
+ } 
+ 
+.conteneur_2 .element:nth-child(7)
+ {
+     background-color: white;
+ }
+ .element:nth-child(8)
+ {
+     background-color: white;
+ }
+ .element:nth-child(9)
+ {
+     background-color: white;
+ }
+ 
+ #footer
+ {
+     background-color: rgb(228, 228, 228);
+     
+     
+ }
+
+ #pied_de_page
+ {
+     display: flex;
+ }
+ .foot
+ {
+     justify-content: center;
+     align-content: space-between;
+ }
