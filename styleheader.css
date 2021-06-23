@@ -12,6 +12,7 @@ ul
 
  a
  {
+     outline: none;
      text-decoration:none; 
  }
 #menu
@@ -26,9 +27,19 @@ nav ul
    
     display: flex; 
     justify-content: space-between;
-    width: 350px; 
+    width: 400px;
 
 }
+#lien_hebergements
+{
+    border-top: 1px solid blue;  
+}
+
+#lien_activites
+{
+    color: blue;
+}
+
 #slogan 
 {   color: black;
     font-size: 18px;
@@ -43,6 +54,12 @@ nav ul
 #barre
 {
     display: flex;
+    justify-content:left;
+    border-width: 0.5px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 22px; 22px;
+
 
 }
 #map
@@ -51,7 +68,7 @@ nav ul
 }
 #rechercher
 {
-    background-color: blue;
+    
 }
 #map
 {
@@ -117,84 +134,3 @@ h1
     border-radius: 15px / 30px;
     
 }
-#conteneur
-{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    border: 3px solid black;
-}
-.element
-{
-    margin: auto;
-    width: 200px;
-    height: 150px;
-}
-.element:nth-child(1)
- {
-    background-color: red;
-}
-.element:nth-child(2)
- {
-    background-color: orange;
-}
-.element:nth-child(3)
- {
-    background-color: yellow;
-}
-.element:nth-child(4)
- {
-     background-color: cadetblue;
- }
- .element:nth-child(5)
- {
-     background-color: greenyellow;
- }
- .element:nth-child(6)
- {
-     background-color: blue;
- }
- #populaire
- {
-     background-color: rgb(228, 228, 228);
-     border-radius: 15px / 30px;
-     
- }
-.conteneur_2 
-{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 600px;
-    border: 3px solid black;
-}
-.conteneur_2 .element:nth-child(1)
- {
-     background-color: cadetblue;
- }
- .element:nth-child(8)
- {
-     background-color: greenyellow;
- }
- .element:nth-child(9)
- {
-     background-color: blue;
- }
- 
- #footer
- {
-     background-color: rgb(228, 228, 228);
-     
-     
- }
-
- #pied_de_page
- {
-     display: flex;
- }
- .foot
- {
-     justify-content: center;
-     align-content: space-between;
- }
