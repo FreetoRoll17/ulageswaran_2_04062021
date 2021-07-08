@@ -3,11 +3,16 @@ body
     background-color: white;
     font-family: 'Raleway';
     font-weight: 400;
-    margin-left: 20px;
-    margin-right: 20px;
+    
     
 }
 
+#center
+{
+    width: 1280px;
+    margin: 0 auto
+    
+}
 ul /* Style sur la partie header */
  {
      list-style-type: none;
@@ -19,6 +24,8 @@ ul /* Style sur la partie header */
      color: black;
 
  }
+
+ 
 #menu
 {
     display:flex;
@@ -40,21 +47,22 @@ nav ul
 {
     color: black;
 	border-top: 2px white solid;
-    border-spacing: 10px;
-    	
+    padding-top: 20px; 
+    margin-top: 0px;    	
 }
+
 #menu ul a:hover,.active
 {
-    color: blue;
-	border-top: 2px blue solid;
-    
+    color: #0065FC;
+	border-top: 2px #0065FC solid;
+    padding-top: 20px; 
+}
 
-	
-}
-#s_inscrire
+#s_inscrire a
 {
-    color: blue;
+    color: #0065FC;
 }
+
 #slogan /* Premier bloc en haut dans le body */
 {   color: black;
     font-size: 18px;
@@ -68,18 +76,29 @@ nav ul
 
 #barre /* Barre de recherche */
 {
-    display: flex;
-    width: 300px;
-    justify-content:left;
+   
+    width: 400px;
+    height: 50px;
+   
     border-width: 0.5px;
     border-style:solid;
     margin-bottom: 30px;
     border-color:rgb(185, 184, 184);
-    border-radius: 22px; 22px;
+    border-radius: 22px 22px 22px 22px; 
     
+    box-shadow: 1px 1px 5px grey;
 
 
 }
+
+/*".filtrebloc:nth-child(1)
+{
+    order: 1;
+}
+.filtrebloc:nth-child(2)
+{
+    order: 2;
+}*/
 
 #info
 {
@@ -89,26 +108,27 @@ nav ul
     font-weight: lighter;
     margin-top: 20px;
 }
-#barre
-{
-    background-color: white;
-    box-shadow: 1px 1px 5px grey;
-}
+
 #barreflex
 {
+    margin: 10px auto;
+    width: 400px;
+    background-color: ;
+    font-family: 'Raleway';
     display: flex;
-    margin: 10px;
-    width: px;
+    justify-content: stretch;
+   
     
 }
 #map
 {
     background-color: gainsboro ;
-    ;
+    padding: 15px;
 }
 #barreflex #button
 {
     background-color: blue;
+    border: 0;
     
 }
 #map
@@ -160,6 +180,7 @@ nav ul
 {
     width: 60px;
     height: auto;
+    border-radius: 70%;
 }
 
 ._backgblue
@@ -211,8 +232,9 @@ h1
 {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+   
     margin: 10px;
+    padding-left: ;
     padding: 8px;
     width: 1400px;
     
@@ -220,13 +242,21 @@ h1
 #marseille /* Bloc logements de Marseille */
 {
   
-    width: 1000px;
-    height: 650px;
+    width: 890px;
+    height: 700px;
     background-color: rgb(228, 228, 228);
     border-radius: 20px 20px 20px 20px;
     margin: 5px;
-    padding: 5px;
+    padding: px;
+    padding-right: 0px;
     align-content: center;
+    
+}
+
+#marseille_titre
+{
+    padding-left: 40px;
+    padding-top: 20px;
     
 }
 
@@ -259,6 +289,7 @@ h1
     margin: 30px;
     margin-left: 25px;
     padding: 10px;
+    padding-bottom: 15px;
     justify-content: space-between;
     align-items: center;
     columns: auto;
@@ -272,18 +303,31 @@ h1
 }
 
 
-
+#afficherplus
+{
+    padding-left: 29px;
+}
 
 
  #populaire /* Bloc Populaire à droite, dans le body */
  {
      background-color: rgb(228, 228, 228);
-     width: 450px;
-     height: 590px;
+     width: 400px;
+     height: 705px;
      margin: 10px;
-    padding: 30px;
+     padding: 0;
      border-radius: 20px 20px 20px 20px;
      
+ }
+
+ #titre_pop
+ {
+     display: flex;
+     align-items: baseline;
+     justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 20px;
  }
 #conteneur_2 
 {
@@ -293,7 +337,7 @@ h1
     justify-content: space-between;
     height: 300px;
     width: 90px;
-    margin: 5px;
+    margin: ;
     margin-top: 10px;
     object-fit: cover;
   
@@ -306,21 +350,20 @@ h1
      background-color:white;
      box-shadow: 1px 1px 5px grey;
      display: flex;
-     padding:5px;
-     margin: 3px;
-     margin-bottom: 10px;
+     padding:2px;
+     margin: 20px;
      border-radius: 20px 20px 20px 20px;
 
-     align-self: auto;
+     
      justify-content: center;
-     width: 390px;
-     height: 150px ;
+     width: 350px;
+     height: 140px ;
     
  }
  
  #conteneur_2 .elementpop img
  {
-    width: 180px;
+    width: 120px;
     height: 130px;
 	max-width: 350px;
 	max-height: 150px;
@@ -348,7 +391,7 @@ h1
      flex-wrap: wrap;
      justify-content: space-between;
      columns:1;
-     width: 350px;
+     width: 290px;
      height: 470px;
      background-color: white;
      box-shadow: 1px 1px 5px grey;
@@ -454,7 +497,7 @@ div.nomhotel
 
 .white_background
 {
-    background-color: white;
+    background-color: ;
     width: 220px;;
     height: 100px;
     margin-top: 1px;
@@ -463,4 +506,10 @@ div.nomhotel
 img
 {
     border-radius: 20px 20px 1px 1px;
+}
+
+h4
+{
+    font-weight:bolder;
+   
 }
