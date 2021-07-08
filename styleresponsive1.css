@@ -1,0 +1,534 @@
+body
+{
+    background-color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+    
+    
+    
+}
+
+.center
+{
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+ul /* Style sur la partie header */
+ {
+     list-style-type: none;
+ }
+
+ a
+ {
+     text-decoration:none;
+     color: black;
+
+ }
+
+ 
+#menu
+{
+    display:flex;
+   
+    width: 450px;
+    
+}
+
+
+nav ul
+{
+   
+    display: flex; 
+    
+    justify-content: space-between;
+    width: 350px; 
+
+}
+
+#menu ul a:hover,.active
+{
+    color: black;
+	border-top: 2px white solid;
+    padding-top: 20px; 
+    margin-top: 0px;    	
+}
+
+#menu ul a:hover,.active
+{
+    color: #0065FC;
+	border-bottom: 2px #0065FC solid;
+    padding-bottom: 20px; 
+}
+
+#s_inscrire a
+{
+    color: #0065FC;
+}
+
+#slogan /* Premier bloc en haut dans le body */
+{   color: black;
+    font-size: 18px;
+   
+}
+
+#sousslogan
+{
+    font-size: 15px;
+}
+
+#barre /* Barre de recherche */
+{
+   
+    width: 400px;
+    height: 50px;
+   
+    border-width: 0.5px;
+    border-style:solid;
+    margin-bottom: 30px;
+    border-color:rgb(185, 184, 184);
+    border-radius: 22px 22px 22px 22px; 
+    
+    box-shadow: 1px 1px 5px grey;
+
+
+}
+
+/*.filtrebloc :nth-child(0)
+{
+    order: 1;
+    background-color: red;
+}
+.filtrebloc:nth-child(2)
+{
+    order: 2;
+}*/
+
+#info
+{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+#barreflex
+{
+    margin: 10px auto;
+    width: 400px;
+    background-color: ;
+    font-family: 'Raleway';
+    display: flex;
+    justify-content: stretch;
+   
+    
+}
+#map
+{
+    background-color: gainsboro ;
+    padding: 15px;
+}
+#barreflex #button
+{
+    background-color: blue;
+    border: 0;
+    
+}
+#map
+{
+    width: 15px;
+    height: 25px;
+}
+#filtre /* Filtres */
+{
+    display: flex;
+    flex-wrap: wrap;
+    columns: 2;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 500px;
+   
+    
+}
+.filtrebloc
+{
+    display: flex;
+    
+    width: 130px;
+    height: 46px;
+    
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 15px;
+    border-radius: 30px 30px 30px 30px;
+    border: gainsboro 1px solid;
+  
+   
+    
+}
+
+.filtrebloc_animaux
+{
+    display: flex;
+    height: 46px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    border: gainsboro 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 0px;
+    padding-right: 15px;
+    
+}
+
+#_child
+{
+    width: 60px;
+    height: auto;
+    border-radius: 70%;
+}
+
+._backgblue
+{
+    background-color: rgb(163, 210, 248);
+    border:gainsboro 1px solid;
+    border-radius: 50%;
+    padding: 13px;
+}
+
+#economique
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#familial
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#romantique
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+#animaux
+{
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(185, 184, 184);
+    border-radius: 40px/35px;
+}
+
+h1
+{
+    text-decoration: underline;
+}
+
+#hebergements_marseille /* Grande section hébergements Marseille */
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+   
+    margin: 10px;
+    
+    padding: 8px;
+    width: 500px;
+    
+}
+#marseille /* Bloc logements de Marseille */
+{
+  
+    width: 450px;
+    height: 1800px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 5px;
+    padding-left: 20px;
+    background-color: white;
+    
+    align-content: center;
+    
+}
+
+#hebergements_marseille section:nth-child(1)
+{
+    order:2;
+}
+
+#hebergements_marseille section:nth-child(2)
+{
+    order:1;
+}
+
+#marseille_titre
+{
+    padding-left: 0px;
+    padding-top: 20px;
+    
+}
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    columns: 1;
+    margin-right: 30px;
+    justify-content:center;
+    
+   
+}
+
+#conteneur .element img
+{
+	width: 400px;
+    max-width: 500px;
+	max-height: 120px;
+    object-fit: cover;
+
+    
+}
+
+
+.element
+{
+    background-color: white;
+    margin: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    columns: auto;
+    width: 410px;
+    height: 190px;
+    box-shadow: 1px 1px 5px grey;
+    line-height: 2px;
+    border-radius:  20px 20px 20px 20px;
+
+    
+}
+
+
+#afficherplus
+{
+    padding-left: 29px;
+}
+
+
+ #populaire /* Bloc Populaire à droite, dans le body */
+ {
+     background-color: rgb(228, 228, 228);
+     width: 450px;
+     height: 705px;
+     margin: 10px;
+     padding: 20px;
+     border-radius: 20px 20px 20px 20px;
+     
+ }
+
+ #titre_pop
+ {
+     display: flex;
+     align-items: baseline;
+     justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 20px;
+ }
+#conteneur_2 
+{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 90px;
+    margin: ;
+    margin-top: 10px;
+    object-fit: cover;
+  
+    
+}
+
+
+.elementpop
+ {
+     background-color:white;
+     box-shadow: 1px 1px 5px grey;
+     display: flex;
+     padding:2px;
+     margin: 20px;
+     border-radius: 20px 20px 20px 20px;
+
+     
+     justify-content: center;
+     width: 350px;
+     height: 140px ;
+    
+ }
+ 
+ #conteneur_2 .elementpop img
+ {
+    width: 120px;
+    height: 130px;
+	max-width: 350px;
+	max-height: 150px;
+    border: white 3px solid;
+    border-radius: 20px 1px 1px 20px;
+    object-fit: cover;
+    
+    
+
+    
+}
+
+#activites_marseille
+{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#bloc_activites
+{
+    display: flex;
+    padding-bottom: 30px;
+    
+    
+}
+
+
+#bloc_activites .element_solo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    columns:1;
+    width: 350px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 30px;
+    border-radius:  20px 20px 20px 20px;
+   
+}
+
+.element_solo img
+{
+   margin: 5px;
+   width: 340px;
+   height: 160px;
+   object-fit: cover;
+   border-radius:  20px 20px 1px 1px;
+}
+
+#bloc_activites .element_duo
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    columns: 1;
+    width: 350px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius:  20px 20px 20px 20px;
+}
+
+.element_duo img
+{
+   margin: 5px;
+   width: 340px;
+   height: 160px;
+   margin-bottom: 0px;
+   object-fit:cover;
+   border-radius: 20px 20px 1px 1px;;
+   
+}
+ #pied_de_page
+ {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     justify-content:space-between ;
+     margin-left: 10px;
+     margin-right: 250px;
+ }
+ .foot
+ {
+     justify-content: center;
+     align-content: space-between;
+    
+ }
+
+
+ /* Autres éléments */
+
+ .fullstar /* style pour les étoiles bleues des hébergements. Ici il faut donner la taille de l'étoile, et sa couleur */
+{
+    display: flex;
+    height: 10px;
+    width: 10px;
+   
+    
+}
+
+div.nomhotel
+{
+   
+    background-color: white;
+    width: auto;
+
+    margin-left: 10px;
+
+    margin-top: 0px;
+    
+  
+}
+
+._blue_icon
+{
+    color: #0065FC;
+}
+
+.no_star
+{
+    color: #DEEBFF; 
+}
+
+.white_background
+{
+    background-color: ;
+    width: 220px;;
+    height: 100px;
+    margin-top: 1px;
+}
+
+img
+{
+    border-radius: 20px 20px 1px 1px;
+}
+
+h4
+{
+    font-weight:bolder;
+   
+}
