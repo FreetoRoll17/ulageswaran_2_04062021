@@ -375,7 +375,7 @@ h1
 
     
 }
-
+/*activités*/
 
  #bloc_activites
  {
@@ -384,12 +384,17 @@ h1
      
  }
  
+ #bloc_activites .colone
+ {
+     display: flex;
+     
+     flex-direction: column;
+ }
  
  #bloc_activites .element_solo
  {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
+    
+     
      columns:1;
      width: 290px;
      height: 470px;
