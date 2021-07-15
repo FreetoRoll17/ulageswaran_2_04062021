@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="stylebody.css"  />
         <link rel="stylesheet" href="styleresponsive1.css" />
         <title>Réservia</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     </head>
 
 
@@ -19,11 +20,24 @@
                 
                 <div>
                     <nav id="menu">
-                        <img id="logo" src="images/logo/Reservia@3x.png" alt="logo" height="45" width="100">
+                        <div id="Menu_mobile">
+                            <img id="logo_mobile" src="images/logo/Reservia@3x.png" alt="logo" height="45" width="100">
+                            <a href="#"><strong>S'inscrire</strong></a>
                         <ul>
+                            
                             <li id="hebergements" class="active"><a href="#hebergements_marseille">Hébergements</a></li>
                             <li id="activites"><a href="#activites_marseille">Activités</a></li>
-                            <li id="s_inscrire"><a href="#"><strong>S'inscrire</strong></a></li>
+                        </ul>
+                        </div>
+                        <div id="Menu_desk">
+                            <img id="logo_desk" src="images/logo/Reservia@3x.png" alt="logo" height="45" width="100">
+                            <ul>
+                                <li id="hebergements" class="active"><a href="#hebergements_marseille">Hébergements</a></li>
+                                <li id="activites"><a href="#activites_marseille">Activités</a></li>
+                                <li id="s_inscrire_desk"><a href="#"><strong>S'inscrire</strong></a></li>
+                            </ul>
+                        </div>
+                            
                         </ul>
                     </nav>
                 </div>    
@@ -39,8 +53,8 @@
                 <form>
                     <div id="barreflex">
                         <div id="map"><img src="images/Icon/map-marker-alt-solid.svg" alt="map"></div>
-                        <div id="form_ville"><input type="text" name="Ville" placeholder="Marseille"></div>
-                        <div><button type="submit" id="button">Rechercher</button></div>  
+                        <div ><input type="text" name="Ville" placeholder="Marseille, France" id="form_ville"></div>
+                        <div><button type="submit" id="button"><div id="rechercher">Rechercher</div><div id="loupe"><i class="fas fa-search"></i></div></button></div>  
                     </div>
                 </form>
         </div> 
@@ -54,22 +68,22 @@
                     
                 <div class="filtrebloc">
                     <div class=" _backgblue"><i class="fas fa-money-bill-wave _blue_icon"></i></div>
-                    <div><p><a href="#"> Economique</a></p></div>
+                    <div><p><a href="#" id="active"> Economique</a></p></div>
                 </div>
 
                 <div class="filtrebloc">   
                     <div class=" _backgblue _child"><i class="fas fa-child _blue_icon"></i></div>
-                    <div><p><a href="#">Familial</a></p></div>
+                    <div><p><a href="#" id="active">Familial</a></p></div>
                 </div>
 
                 <div class="filtrebloc">
                     <div class=" _backgblue"><i class="fas fa-heart _blue_icon"></i></div>
-                    <div><p><a href="#"> Romantique</a></p></div>
+                    <div><p><a href="#" id="active"> Romantique</a></p></div>
                 </div>
 
                 <div class="filtrebloc_animaux">
                     <div class=" _backgblue"><i class="fas fa-dog _blue_icon"></i></div>
-                    <div><p><a href="#"> Animaux autorisés</a></p></div> 
+                    <div><p><a href="#"  id="active"> Animaux autorisés</a></p></div> 
                 </div>
                 
         </section>
@@ -95,7 +109,7 @@
                                     <div><h4>Auberge de la Cannebière</h4></div>
                                     <div><p>Nuit à partir de <em>25€</em></p></div>
                                 </a>
-                                <div><i class="fas fa-star _blue_icon"></i><i class="fas fa-star _blue_icon"></i><i class="fas fa-star_blue _icon"></i><i class="fas fa-star _blue_icon"></i><i class="fas fa-star no_star"></i></div>
+                                <div><i class="fas fa-star _blue_icon"></i><i class="fas fa-star _blue_icon"></i><i class="fas fa-star _blue_icon"></i><i class="fas fa-star_blue _icon"></i><i class="fas fa-star _blue_icon"></i><i class="fas fa-star no_star"></i></div>
                             </div>
                             
                         </div>
@@ -145,7 +159,7 @@
                             </a>
                         </div>
                     </div>
-                <div id="afficherplus"><p><em>Afficher plus</em></p></div>
+                <div id="afficherplus"><a href="#"><p><em>Afficher plus</em></p></a></div>
             </section> 
 
             <section id="populaire">
