@@ -11,7 +11,7 @@ body
 #center
 {
     width: 1280px;
-    margin: 0 auto
+    margin: 0 auto;
     
 }
 ul /* Style sur la partie header */
@@ -94,14 +94,18 @@ nav ul
     order: 2;
 }*/
 
-#info
+#info 
 {
     display: flex;
-    justify-content: space-between;
+}
+#info div
+{
+    display: flex;
+    align-content:stretch;
     align-items: center;
-    width: 350px;
+    width: 300px;
     font-weight: lighter;
-    margin-top: px;
+   
 }
 
 
