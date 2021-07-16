@@ -119,9 +119,15 @@
          columns: 2;
          align-items: flex-start;
          
-         width: 400px;
+         width: 380px;
      }
  /* Hébergements*/
+
+ #hebergements_marseille 
+{
+    width: 375px;
+    
+}
 
  #marseille_titre
  {
@@ -167,7 +173,7 @@
  
  #conteneur 
  {
-     margin: 12px;
+     margin: 5px;
  }
  .element
  {
@@ -194,14 +200,18 @@
  }
  
  
-  #populaire /* Bloc Populaire à droite, dans le body */
+ /* Bloc Populaire à droite, dans le body */
+
+
+   #populaire 
   {
-      background-color: rgb(228, 228, 228);
-      width: 400px;
-      height: 705px;
-      margin: 10px;
-      padding: 0;
-      border-radius: 20px 20px 20px 20px;
+      background-color: gainsboro;
+      width: 375px;
+      height: 625px;
+      margin: 0px 2px 2px 0px;
+      padding: 10px;
+      
+      border-radius: 0px 0px 0px 0px;
       
   }
  
@@ -229,11 +239,22 @@
      
  }
  
- #afficherplus
+ .elementpop
  {
-     padding-left: 29px;
+     background-color:white;
+     box-shadow: 1px 1px 5px grey;
+     display: flex;
+     
+     border-radius: 20px 20px 20px 20px;
+
+     margin: 5px 0px 8px 0px;
+     justify-content: center;
+     width: 370px;
+     height: 140px ;
+    
  }
  
+
  
  /*Activités Marseille*/
  
@@ -242,7 +263,7 @@
      background-color: ;
      height: auto;
      width: auto;
-     padding: 20px; 
+     padding: 10px; 
      justify-items: center;
  }
  
@@ -264,13 +285,13 @@
       {
          
           columns:1;
-          width: 350px;
+          width: 365px;
           height: 230px;
-          background-color:red;
+          background-color:white;
           box-shadow: 1px 1px 5px grey;
           object-fit: cover;
           overflow: hidden;
-          margin-right: 30px;
+          margin: 8px 0px 0px 0px;
           border-radius:  20px 20px 20px 20px;
          
       }
@@ -278,7 +299,7 @@
      .element_solo img
       {
          margin: 5px;
-         width: 320px;
+         width: 355px;
          height: 150px;
          
       }
@@ -286,16 +307,18 @@
       #bloc_activites .colone .element_duo
       {
           
-          
+        width: 365px;
           height: 230px;
-          background-color: yellow;
-         
+          background-color:white;
+          margin: 0px 0px 8px 0px;   
       }
+      
+     
       
       .element_duo img
       {
          margin: 5px;
-         
+         width: 355px;
          height: 160px;
          margin-bottom: 0px;
          object-fit:cover;
@@ -307,16 +330,18 @@
       {
           order:2;
       }
- 
-      #footer /* Pied de page */
+
+/*FOOTER*/ 
+
+      #footer 
       {
           background-color: rgb(228, 228, 228);
-          width: 450px;
+          width: 375px;
           justify-content: center;
           align-content: space-between;
          
       }
-     
+  
       #pied_de_page
       {
           display: flex;
