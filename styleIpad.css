@@ -1,0 +1,299 @@
+@media screen and (max-width: 1025px) 
+{
+
+    body
+{
+    background-color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+    width: 500px;
+    
+    
+    
+}
+#center
+{
+    width: 1080px;
+    margin: 0 auto;
+    
+}
+
+
+header
+{
+    width: 1370px;
+}
+.filtrebloc_animaux
+{
+    display: flex;
+    height: 46px;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    border: gainsboro 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 0px;
+    padding-right: 15px;
+}   
+    /* Hébergements*/
+
+
+#hebergements_marseille
+{
+    width: 1405px;
+    flex-direction: column;
+    
+}
+
+ #hebergements_marseille section:nth-child(1)
+ {
+     order:2;
+ }
+ 
+ #hebergements_marseille section:nth-child(2)
+ {
+     order:1;
+ }
+
+
+ #marseille /* Bloc logements de Marseille */
+{
+  
+    width: 1499px;
+    height: 800px;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+    border-radius: 20px 20px 20px 20px;
+    
+    padding-right: 0px;
+    align-content: center;
+    
+}
+
+#marseille_titre
+{
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+
+#conteneur
+{
+    display: flex;
+    columns: 3;
+    columns: auto;
+    flex-wrap: wrap;
+    
+    
+    justify-content:center;
+    
+   
+}
+
+#conteneur .element img
+{
+	width: 390px;
+    max-width: 500px;
+	max-height: 120px;
+    object-fit: cover;
+
+    
+}
+
+
+.element
+{
+    background-color: white;
+    margin: 30px;
+    margin-left: 25px;
+    padding: 10px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+    columns: auto;
+    width: 400px;
+    height: 210px;
+    box-shadow: 1px 1px 5px grey;
+    line-height: 2px;
+    border-radius:  20px 20px 20px 20px;
+
+    
+}
+
+
+#afficherplus
+{
+    padding-left: 29px;
+}
+
+
+ #populaire /* Bloc Populaire à droite, dans le body */
+ {
+     background-color: white;
+     width: 1350px;
+     height: 380px;
+     margin-left: 0px;
+     margin: 0px;  
+ }
+
+ #titre_pop
+ {
+     display: flex;
+     flex-direction: row;
+     align-items: baseline;
+ }
+#conteneur_2 
+{
+    display:flex;
+    width: 1300px;
+    object-fit: cover;   
+}
+
+
+.elementpop
+ {
+     background-color:white;
+     box-shadow: 1px 1px 5px grey;
+     display: flex;
+     padding:2px;
+     margin: 20px;
+     border-radius: 20px 20px 20px 20px;
+
+     
+     justify-content: center;
+     width: 320px;
+     height: 190px ;
+     display: flex;
+     
+    
+ }
+ 
+ #conteneur_2 .elementpop img
+ {
+    width: 120px;
+    height: 183px;
+	
+    padding-right:5px ;
+    border: white 3px solid;
+    border-radius: 20px 1px 1px 20px;
+    object-fit: cover;
+    
+    
+
+    
+}
+
+/*activités*/
+
+#activites_marseille
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ #bloc_activites
+ {
+     display: flex;
+     padding-bottom: 30px;
+     
+ }
+ 
+ .colone
+ {
+     margin-bottom: 30px;
+     margin-left: 20px;
+ }
+ 
+ #bloc_activites .colone
+ {
+     display: flex;
+     
+     flex-direction: column;
+ }
+ 
+ #bloc_activites .colone .element_solo
+ {
+    
+     
+     columns:1;
+     width: 300px;
+     height: 480px;
+     background-color: white;
+     box-shadow: 1px 1px 5px grey;
+     object-fit: cover;
+     overflow: hidden;
+     margin-right: 30px;
+     border-radius:  20px 20px 20px 20px;
+    
+ }
+ 
+.element_solo img
+ {
+    margin: 5px;
+    width: 290px;
+    height: 400px;
+    object-fit: cover;
+    border-radius:  20px 20px 1px 1px;
+ }
+
+ #bloc_activites .colone .element_duo
+ {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-bottom: 10px;
+     margin-right: 30px;
+     columns: 1;
+     width: 350px;
+     height: 230px;
+     background-color: white;
+     box-shadow: 1px 1px 5px grey;
+     object-fit: cover;
+     overflow: hidden;
+     border-radius:  20px 20px 20px 20px;
+ }
+ 
+ .element_duo img
+ {
+    margin: 5px;
+    width: 340px;
+    height: 160px;
+    margin-bottom: 0px;
+    object-fit:cover;
+    border-radius: 20px 20px 1px 1px;;
+    
+ }
+
+/*FOOTER*/ 
+
+      #footer 
+      {
+          background-color: rgb(228, 228, 228);
+          width: 1505px;
+          justify-content: center;
+          align-content: space-between;
+         
+      }
+  
+      #pied_de_page
+      {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          justify-content:space-between ;
+          margin-left: 10px;
+          margin-right: 250px;
+          
+          width: auto;
+      }
+      .foot
+      {
+          justify-content: center;
+          align-content: space-between;
+          padding: 15px;
+      }
+}

@@ -8,6 +8,7 @@
         <script src="https://kit.fontawesome.com/3d90d303e6.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="stylebody.css"  />
         <link rel="stylesheet" href="styleresponsive1.css" />
+        <link rel="stylesheet" href="styleIpad.ss" />
         <title>Réservia</title>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     </head>
@@ -19,28 +20,23 @@
             <div id="titre_principale">
                 
                 <div>
-                    <nav id="menu">
-                        <div id="Menu_mobile">
-                            <img id="logo_mobile" src="images/logo/Reservia@3x.png" alt="logo" height="45" width="100">
-                            <a href="#"><strong>S'inscrire</strong></a>
-                        <ul>
-                            
-                            <li id="hebergements" class="active"><a href="#hebergements_marseille">Hébergements</a></li>
-                            <li id="activites"><a href="#activites_marseille">Activités</a></li>
-                        </ul>
-                        </div>
-                        <div id="Menu_desk">
-                            <img id="logo_desk" src="images/logo/Reservia@3x.png" alt="logo" height="45" width="100">
+                    <div class="menu">
+                        <a href="#">
+                            <h1><img src="images/logo/Reservia.svg" alt="Réservia"></h1>
+                        </a>
+                
+                        <a href="#" class="Menu_mobile">S'inscrire</a>
+                        <nav>
                             <ul>
-                                <li id="hebergements" class="active"><a href="#hebergements_marseille">Hébergements</a></li>
-                                <li id="activites"><a href="#activites_marseille">Activités</a></li>
-                                <li id="s_inscrire_desk"><a href="#"><strong>S'inscrire</strong></a></li>
-                            </ul>
-                        </div>
                             
-                        </ul>
-                    </nav>
-                </div>    
+                                <li id="hebergements" class="fix"><a href="#hebergements_marseille">Hébergements</a></li>
+                                <li id="activites" class="active" ><a href="#activites_marseille">Activités</a></li>
+                                <li class="signin" class="active"><a href="#">S'inscrire</a></li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+                </div>       
             </div>
         </header>
         
@@ -66,36 +62,37 @@
                         <strong>Filtres</strong>
                     </p>
                 </div>
-                    
-                <div class="filtrebloc">
-                    <div class=" _backgblue"><i class="fas fa-money-bill-wave _blue_icon"></i></div>
-                    <div><p><a href="#" id="active"> Economique</a></p></div>
-                </div>
+                
+                
+                    <div class="filtrebloc" id="economie">
+                        <div class=" _backgblue"><i class="fas fa-money-bill-wave _blue_icon"></i></div>
+                        <div><p><a href="#" id="active" class="short"> Economique</a></p></div>
+                    </div>
 
-                <div class="filtrebloc">   
-                    <div class=" _backgblue _child"><i class="fas fa-child _blue_icon"></i></div>
-                    <div><p><a href="#" id="active">Familial</a></p></div>
-                </div>
+                    <div class="filtrebloc">   
+                        <div class=" _backgblue _child"><i class="fas fa-child _blue_icon"></i></div>
+                        <div><p><a href="#" id="active">Familial</a></p></div>
+                    </div>
 
-                <div class="filtrebloc">
-                    <div class=" _backgblue"><i class="fas fa-heart _blue_icon"></i></div>
-                    <div><p><a href="#" id="active"> Romantique</a></p></div>
-                </div>
+                    <div class="filtrebloc" class="short">
+                        <div class=" _backgblue"><i class="fas fa-heart _blue_icon"></i></div>
+                        <div><p><a href="#" id="active" class="short"> Romantique</a></p></div>
+                    </div>
 
-                <div class="filtrebloc_animaux">
-                    <div class=" _backgblue"><i class="fas fa-dog _blue_icon"></i></div>
-                    <div><p><a href="#"  id="active"> Animaux autorisés</a></p></div> 
-                </div>
+                    <div class="filtrebloc_animaux">
+                        <div class=" _backgblue"><i class="fas fa-dog _blue_icon"></i></div>
+                        <div><p><a href="#"  id="active"> Animaux autorisés</a></p></div> 
+                    </div>
                 
         </section>
             
         <div id="info">
-            <div><i class="fas fa-info"></i></div>
+            <div><i class="fas fa-info" ></i></div>
             <div><p id="infologement">Plus de 500 logements sont disponibles dans cette ville.</p></div>
         </div>
          
 
-        <a href="#"></a>
+       
         
            
             

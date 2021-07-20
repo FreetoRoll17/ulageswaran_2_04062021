@@ -10,7 +10,7 @@ body
 
 #center
 {
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
     
 }
@@ -26,50 +26,84 @@ ul /* Style sur la partie header */
 
  }
 
+#hebergements
+ {
+     color:#0065FC;
+ }
 
+
+ .menu 
+ {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
  
-#menu
-{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-between;
+
+ #hebergements
+ {
+    justify-items: ;
+
+ }
+
+ #activites
+ {
+
+ }
+
+ .signin
+ {
+    font-size: 0.9em;
+    font-weight: 900;
+    color: #0065FC;
+ }
+ .Menu_mobile 
+ {
+     display: none;
+ }
+ 
+ .menu ul 
+ {
+     display: flex;
+     list-style: none;
+     margin-left: auto; 
+ }
+ 
+ .menu ul li 
+ {
+     border-top: solid 3px transparent;
+     padding: 30px 25px 30px 25px;
+ }
+ 
+ .menu ul li.fix 
+ {
+     
+     border-top: 2px #0065FC solid;
+ }
+ 
+ #menu ul .active:hover,
+ {
     
-}
+     border-top: 2px #0065FC solid;
+     padding-top: 20px;
+      
+ }
+ .menu ul li.active a,.menu ul li.signin a 
+ {
+     color: #0066FF;
+ }
+ 
+ 
+ .navbar ul li.signin a 
+ {
+     font-weight: 700;
+ }
 
-#Menu_mobile
-{
-    display: none;
-}
-
-nav ul
-{
-   
-    display: flex; 
-    justify-content: space-between;
-    width: 350px; 
-
-}
-
-#menu ul a:hover,.active
-{
-    color: black;
-	border-top: 2px white solid;
-    padding-top: 20px; 
-    margin-top: 0px;    	
-}
-
-#menu ul a:hover,.active
-{
-    color: #0065FC;
-	border-top: 2px #0065FC solid;
-    padding-top: 20px; 
-}
-
-#s_inscrire_desk
-{
-    color: #0065FC;
-    text-decoration:none;
-}
+ .signin
+ {
+     color:#0065FC ;
+ }
 
 #slogan /* Premier bloc en haut dans le body */
 {   color: black;
@@ -94,21 +128,28 @@ nav ul
     order: 2;
 }*/
 
+
 #info 
-{
-    display: flex;
-}
-#info div
 {
     display: flex;
     align-content:stretch;
     align-items: center;
-    width: 300px;
+    
     font-weight: lighter;
-   
+  
 }
 
+#info div
+{
+    margin: 0px 0px 0px 10px;
+}
 
+.fa-info
+{
+    border: 1px gray solid;
+    border-radius: 700px 700px 700px 700px;
+    padding:6px 10px 6px 10px;
+}
 #barreflex
 { 
     display: flex;
@@ -172,16 +213,18 @@ nav ul
 #filtre /* Filtres */
 {
     display: flex;
-    align-items: flex-start;
+  
     justify-content: space-between;
     width: 1000px;
    
     
 }
+
+
 .filtrebloc
 {
     display: flex;
-    width: 130px;
+    width: 150px;
     height: 46px;
     justify-content: space-between;
     align-items: center;
@@ -189,6 +232,12 @@ nav ul
     padding-right: 15px;
     border-radius: 30px 30px 30px 30px;
     border: gainsboro 1px solid;   
+}
+
+.short
+{
+    margin-left: 10px;
+   
 }
 
 /* 
@@ -211,8 +260,6 @@ nav ul
 .filtrebloc div a:hover,.active
 {
     color: #0065FC;
-    
-
 }
 
 .filtrebloc_animaux
@@ -424,8 +471,7 @@ h1
  {
     width: 120px;
     height: 130px;
-	max-width: 350px;
-	max-height: 150px;
+
     border: white 3px solid;
     border-radius: 20px 1px 1px 20px;
     object-fit: cover;
@@ -467,7 +513,7 @@ h1
      
      columns:1;
      width: 290px;
-     height: 470px;
+     height: 475px;
      background-color: white;
      box-shadow: 1px 1px 5px grey;
      object-fit: cover;
