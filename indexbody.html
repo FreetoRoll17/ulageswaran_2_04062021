@@ -44,11 +44,8 @@
                 <div id="barreflex">
                     <div id="map"><img src="images/Icon/map-marker-alt-solid.svg" alt="map"></div>
                     <div><input type="text" name="Ville" placeholder="Marseille, France" id="form_ville"></div>
-                    <div><button type="submit" id="button">Rechercher<div id="loupe"><i class="fas fa-search"></i></div>
-                        </button></div>
-                    <div><button type="submit" id="loupe">
-                            <i class="fas fa-search"></i></div>
-                    </button>
+                    <div><button type="submit" id="button">Rechercher</button></div>
+                    <div><button type="submit" id="loupe"><i class="fas fa-search"></i></button></div>
                 </div>
             </form>
         </div>    
@@ -93,7 +90,7 @@
         </div>
     </div>
     <section id="hebergements_marseille"> <!-- Block Marseille-->
-        <section id="marseille">
+        <div id="marseille">
             <h3 id="marseille_titre">Hébergement à Marseille</h3>
             <div id="conteneur">
                 <div class="element">
@@ -198,11 +195,13 @@
                     </div>
                 </div>
             </div>
-            <div id="afficherplus"><a href="#">
+            <div id="afficherplus">
+                <a href="#">
                     <p><em><strong>Afficher plus</strong></em></p>
-                </a></div>
-        </section>
-        <section id="populaire"> <!-- Aside Populaire-->
+                </a>
+            </div>
+        </div>
+        <div id="populaire"> <!-- Aside Populaire-->
             <div id="titre_pop">
                 <h3>Les plus populaires</h3>
                 <i class="fas fa-chart-line"></i>
@@ -267,7 +266,7 @@
                     </div>
                 </a>
             </div>
-        </section>
+        </div>
     </section>
     <section id="activites_marseille"> <!-- Block activités Marseille-->
         <h3>Activités à Marseille</h3>
@@ -335,8 +334,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    </div>
+    </section>   
     <footer id=footer> <!-- Pied de page-->
         <div id=pied_de_page>
             <div class=foot_1>
