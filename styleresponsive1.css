@@ -187,26 +187,23 @@
         justify-content: center;
     }
 
-    #conteneur .element img {
-        width: 210px;
-        max-width: 500px;
-        max-height: 120px;
-        object-fit: cover;
-    }
 
     #conteneur {
         margin: 5px;
+        width: 380px;
     }
 
     .element {
         width: 350px;
-        height: 190px
+        height: 210px;
+       
     }
 
 
 
     #conteneur .element img {
-        width: 350px;
+        width: 320px;
+        margin: 0px;
         max-width: 500px;
         max-height: 120px;
         object-fit: cover;
@@ -223,7 +220,7 @@
     #populaire {
         background-color: gainsboro;
         width: 375px;
-        height: 625px;
+        height: 585px;
         margin: 0px 2px 2px 0px;
         padding: 10px;
         border-radius: 0px 0px 0px 0px;
@@ -245,7 +242,8 @@
         justify-content: space-between;
         height: 300px;
         width: 90px;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         object-fit: cover;
     }
 
@@ -254,10 +252,10 @@
         box-shadow: 1px 1px 5px grey;
         display: flex;
         border-radius: 20px 20px 20px 20px;
-        margin: 5px 0px 8px 0px;
+        margin: 5px 0px 20px 0px;
         justify-content: center;
         width: 370px;
-        height: 140px;
+        height: 138px;
     }
 
 
@@ -267,6 +265,7 @@
     #activites_marseille {
         height: auto;
         width: auto;
+        margin-top: 20px;
         padding: 0px;
         margin-left: 10spx;
         justify-items: center;
@@ -284,7 +283,7 @@
     #bloc_activites .colone .element_solo {
         columns: 1;
         width: 365px;
-        height: 230px;
+        height: 210px;
         background-color: white;
         box-shadow: 1px 1px 5px grey;
         object-fit: cover;
@@ -294,21 +293,21 @@
     }
 
     .element_solo img {
-        margin: 5px;
-        width: 355px;
+        margin: 0px;
+        width: 395px;
         height: 150px;
     }
 
     #bloc_activites .colone .element_duo {
         width: 365px;
-        height: 230px;
+        height: 210px;
         background-color: white;
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 30px 0px;
     }
 
     .element_duo img {
-        margin: 5px;
-        width: 355px;
+        margin: 0px;
+        width: 395px;
         height: 160px;
         object-fit: cover;
         border-radius: 20px 20px 1px 1px;

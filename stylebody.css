@@ -1,15 +1,18 @@
 body {
+    
     background-color: white;
     font-family: 'Raleway';
     font-weight: 400;
 }
 
-#center {
+/*.center {
     width: 1080px;
     margin: 0 auto;
-}
+}*/
 
 /* Style sur la partie header */
+
+
 ul {
     list-style-type: none;
 }
@@ -167,7 +170,7 @@ a {
 .smallfilter {
     display: flex;
     width: 165px;
-    height: 46px;
+    height: 43px;
     align-items: center;
     padding-left: 0px;
     padding-right: 15px;
@@ -195,8 +198,8 @@ a {
 
 .animaux {
     display: flex;
-    height: 46px;
-    width: 200px;
+    height: 43px;
+    width: 199px;
     justify-content: space-between;
     align-items: center;
     margin-right: 10px;
@@ -418,7 +421,7 @@ h1 {
 #bloc_activites .colone .element_solo {
     columns: 1;
     width: 290px;
-    height: 475px;
+    height: 455px;
     background-color: white;
     box-shadow: 1px 1px 5px grey;
     object-fit: cover;
@@ -435,15 +438,20 @@ h1 {
     border-radius: 20px 20px 1px 1px;
 }
 
+.element_solo h4{
+    margin-top: 10px;
+}
+
 #bloc_activites .colone .element_duo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     margin-right: 30px;
+    padding-bottom: 10px;
     columns: 1;
     width: 350px;
-    height: 230px;
+    height: 200px;
     background-color: white;
     box-shadow: 1px 1px 5px grey;
     object-fit: cover;
@@ -460,6 +468,9 @@ h1 {
     border-radius: 20px 20px 1px 1px;
 }
 
+.element_duo h4{
+    margin-top: 10px;
+}
 /* Pied de page */
 
 #footer {
@@ -527,4 +538,8 @@ h4 {
 
 .justify_element{
     margin-left: 5px;
+}
+
+.paddingleft{
+    margin-left: 15px;
 }

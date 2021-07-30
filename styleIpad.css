@@ -52,12 +52,12 @@
         
     #marseille {
 
-        width: 1499px;
-        height: 800px;
+        width: 1459px;
+        height: 730px;
         flex-direction: column;
         background-color: rgb(228, 228, 228);
         border-radius: 20px 20px 20px 20px;
-        margin-left: 280px;
+        margin-left: 230px;
         margin-top: 50px;
         margin-bottom: 50px;
         padding-right: 0px;
@@ -74,6 +74,7 @@
     #conteneur {
         display: flex;
         columns: 3;
+        margin-left: 20px;
         columns: auto;
         flex-wrap: wrap;
         justify-content: center;
@@ -89,14 +90,10 @@
 
     .element {
         background-color: white;
-        margin: 30px;
-        margin-left: 25px;
-        padding: 10px;
-        padding-bottom: 15px;
         justify-content: space-between;
         align-items: center;
         columns: auto;
-        width: 400px;
+        width: 405px;
         height: 210px;
         box-shadow: 1px 1px 5px grey;
         line-height: 2px;
@@ -105,18 +102,18 @@
 
 
     #afficherplus {
-        padding-left: 29px;
+        padding-left: 40px;
     }
 
 /* Bloc Populaire à droite, dans le body */
         
     #populaire {
         background-color: white;
-        width: 1450px;
+        width: 1430px;
         height: 380px;
         margin-left: 0px;
         margin: 0px;
-        margin-left: 200px;
+        margin-left: 160px;
     }
 
     #titre_pop {
@@ -127,7 +124,7 @@
 
     #conteneur_2 {
         display: flex;
-        width: 1300px;
+        width: 1400px;
         object-fit: cover;
     }
 
@@ -140,7 +137,7 @@
         margin: 20px;
         border-radius: 20px 20px 20px 20px;
         justify-content: center;
-        width: 320px;
+        width: 385px;
         height: 190px;
         display: flex;
     }
@@ -172,6 +169,61 @@
         margin-left: 20px;
     }
 
+
+#bloc_activites .colone .element_solo {
+    columns: 1;
+    width: 300px;
+    height: 455px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.element_solo img {
+    
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 20px 20px 1px 1px;
+}
+
+.element_solo h4{
+    margin-top: 10px;
+}
+
+#bloc_activites .colone .element_duo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    columns: 1;
+    width: 330px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.element_duo img {
+    
+    width: 350px;
+    height: 160px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    border-radius: 20px 20px 1px 1px;
+}
+
+.element_duo h4{
+    margin-top: 10px;
+}
+    /*
     #bloc_activites .colone {
         display: flex;
         flex-direction: column;
@@ -221,6 +273,7 @@
         object-fit: cover;
         border-radius: 20px 20px 1px 1px;
     }
+    */
 
     /*FOOTER*/
 
@@ -246,5 +299,11 @@
         justify-content: center;
         align-content: space-between;
         padding: 15px;
+    }
+
+    h4 {
+        font-weight: bolder;
+        
+        padding: 0px 0px 0px 0px;
     }
 }
