@@ -1,5 +1,13 @@
 @media screen and (max-width: 375px) {
 
+    body {
+    
+        background-color: white;
+        font-family: 'Raleway';
+        font-weight: 400;
+        margin-left: 5px;
+       
+    }
 
     #center {
         width: 450px;

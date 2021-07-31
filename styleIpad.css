@@ -15,9 +15,20 @@
 
 
     header {
-        width: 1510px;
+        width: 1710px;
     }
 
+    #introduction {
+        margin-left: 20px;
+    }
+
+     #barre{
+        margin-left: 20px;
+     }
+
+     #filtre{
+        margin-left: 20px;
+     }
 
     .animaux {
         display: flex;
@@ -52,12 +63,12 @@
         
     #marseille {
 
-        width: 1459px;
+        width: 1409px;
         height: 730px;
         flex-direction: column;
         background-color: rgb(228, 228, 228);
-        border-radius: 20px 20px 20px 20px;
-        margin-left: 230px;
+        border-radius: 0px 0px 0px 20px;
+        margin-left: auto;
         margin-top: 50px;
         margin-bottom: 50px;
         padding-right: 0px;
@@ -109,14 +120,15 @@
         
     #populaire {
         background-color: white;
-        width: 1430px;
+        width: 1330px;
         height: 380px;
-        margin-left: 0px;
-        margin: 0px;
-        margin-left: 160px;
+        
+        padding-left: 30px;
+        
     }
 
     #titre_pop {
+        width: 1350px;
         display: flex;
         flex-direction: row;
         align-items: baseline;
@@ -166,7 +178,7 @@
 
     .colone {
         margin-bottom: 30px;
-        margin-left: 20px;
+        margin-left: ;
     }
 
 

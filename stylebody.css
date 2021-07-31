@@ -3,7 +3,7 @@ body {
     background-color: white;
     font-family: 'Raleway';
     font-weight: 400;
-    margin-left: 50px;
+    margin-left: 20px;
    
 }
 
@@ -98,6 +98,17 @@ a {
     margin-bottom: 30px;
 }
 
+#introduction {
+    margin-left: 20px;
+}
+
+ #barre{
+    margin-left: 20px;
+ }
+
+ #filtre{
+    margin-left: 20px;
+ }
 /* Barre de recherche */
 
 #barreflex {
