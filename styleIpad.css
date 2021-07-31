@@ -15,7 +15,7 @@
 
 
     header {
-        width: 1710px;
+        width: 1494px;
     }
 
     #introduction {
@@ -49,6 +49,7 @@
     #hebergements_marseille {
         width: 1300px;
         flex-direction: column;
+        margin-left: 30px;
     }
 
     #hebergements_marseille section:nth-child(1) {
@@ -168,6 +169,7 @@
     #activites_marseille {
         display: flex;
         flex-direction: column;
+        margin-left: 30px;
     }
 
     #bloc_activites {
@@ -184,7 +186,7 @@
 
 #bloc_activites .colone .element_solo {
     columns: 1;
-    width: 300px;
+    width: 330px;
     height: 455px;
     background-color: white;
     box-shadow: 1px 1px 5px grey;
@@ -196,7 +198,7 @@
 
 .element_solo img {
     
-    width: 300px;
+    width: 340px;
     height: 390px;
     object-fit: cover;
     border-radius: 20px 20px 1px 1px;
