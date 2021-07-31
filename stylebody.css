@@ -3,11 +3,12 @@ body {
     background-color: white;
     font-family: 'Raleway';
     font-weight: 400;
+   
 }
 
-/*.center {
+.centerbody {
     width: 1080px;
-    margin: 0 auto;
+    margin:   auto  auto;
 }*/
 
 /* Style sur la partie header */
