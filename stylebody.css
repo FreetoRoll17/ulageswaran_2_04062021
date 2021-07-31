@@ -3,18 +3,22 @@ body {
     background-color: white;
     font-family: 'Raleway';
     font-weight: 400;
+    margin-left: 50px;
    
 }
 
 .centerbody {
-    max-width: 1080px ;
+    max-width: 1920px ;
     width: 100%;
     margin:   0  auto;
 }
 
 /* Style sur la partie header */
 
-
+ header{
+     max-width: 1380px;
+ }
+ 
 ul {
     list-style-type: none;
 }
@@ -476,6 +480,7 @@ h1 {
 
 #footer {
     background-color: rgb(228, 228, 228);
+    max-width: 1400px;
     
 }
 
