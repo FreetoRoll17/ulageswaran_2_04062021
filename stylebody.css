@@ -7,9 +7,10 @@ body {
 }
 
 .centerbody {
-    width: 1080px;
-    margin:   auto  auto;
-}*/
+    max-width: 1080px ;
+    width: 100%;
+    margin:   0  auto;
+}
 
 /* Style sur la partie header */
 
@@ -282,7 +283,6 @@ h1 {
 #hebergements_marseille {
     display: flex;
     align-items: center;
-    width: 1400px;
 }
 
 /* Bloc logements de Marseille */
